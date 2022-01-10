@@ -1,0 +1,23 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:44:23.134Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:44:23.151Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:10:24)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.newUser (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:10:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T04:45:24.272Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:46:05.760Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:46:05.774Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:46:37.643Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:46:37.675Z"}
