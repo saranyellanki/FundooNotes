@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 //get all users
 export const getAllUsers = async () => {
@@ -14,6 +15,24 @@ export const newUser = async (body) => {
   const data = await User.create(body);
   return data;
 };
+
+//login a user
+export const login = async (body) => {
+  const user = await User.findOne({ email : body.email });
+  if(user == null){
+    return "User does not exist"
+  } else{
+    const validPassword = await bcrypt.compare(body.password, user.password);
+    if(validPassword){
+      let token = jwt.sign({ firstName : body.firstName, lastName : body.lastName },'secretKey');
+      body.token = token;
+      return body.token;
+    }else {
+      throw new Error("Not a Valid Password");
+    }
+  }
+};
+
 //update single user
 export const updateUser = async (_id, body) => {
   const data = await User.findByIdAndUpdate(
