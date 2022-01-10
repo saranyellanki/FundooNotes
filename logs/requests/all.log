@@ -4,3 +4,33 @@ info: ::1 - - [10/Jan/2022:04:46:08 +0000] "POST /api/v1/register HTTP/1.1" 201 
 
 info: ::1 - - [10/Jan/2022:04:46:41 +0000] "POST /api/v1/register HTTP/1.1" 201 335 "-" "PostmanRuntime/7.28.4"
 
+info: ::1 - - [10/Jan/2022:04:54:01 +0000] "POST /api/v1/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:04:54:23 +0000] "POST /api/v1/login HTTP/1.1" 201 117 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:04:55:42 +0000] "POST /api/v1/register HTTP/1.1" 201 331 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:04:57:51 +0000] "POST /api/v1/login HTTP/1.1" 500 62 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:04:58:06 +0000] "POST /api/v1/login HTTP/1.1" 201 117 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:06:22:58 +0000] "POST /api/v1/login HTTP/1.1" 201 117 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:06:23:04 +0000] "POST /api/v1/login HTTP/1.1" 201 32 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:06:53:30 +0000] "POST /api/v1/login HTTP/1.1" 201 147 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:07:50:28 +0000] "POST /api/v1/login HTTP/1.1" 201 147 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:07:50:33 +0000] "POST /api/v1/login HTTP/1.1" 201 62 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:07:51:38 +0000] "POST /api/v1/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:07:52:08 +0000] "POST /api/v1/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:07:52:19 +0000] "POST /api/v1/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:07:52:28 +0000] "POST /api/v1/login HTTP/1.1" 201 147 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [10/Jan/2022:07:52:32 +0000] "POST /api/v1/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.28.4"
+
