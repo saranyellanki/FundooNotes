@@ -1,0 +1,123 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:44:23.134Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:44:23.151Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:10:24)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.newUser (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:10:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T04:45:24.272Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:46:05.760Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:46:05.774Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:46:37.643Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:46:37.675Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:53:35.337Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:53:35.359Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:26:11)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T04:54:01.582Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:54:20.614Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:54:20.637Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:54:53.215Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:54:53.235Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:57:22.280Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:57:22.296Z"}
+error: 
+    status - 500 
+    message - TypeError: body.save is not a function
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:29:12)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T04:57:51.390Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:58:01.948Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:58:01.969Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T06:22:52.075Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:22:52.097Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T06:24:47.346Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:24:47.370Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T07:50:23.783Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:50:23.806Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T07:51:35.699Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:51:35.722Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:20:22)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T07:51:38.669Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T07:52:05.213Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:52:05.234Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:20:22)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T07:52:08.385Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T07:52:17.095Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:52:17.114Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:31:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T07:52:19.165Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:31:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T07:52:32.481Z"}
