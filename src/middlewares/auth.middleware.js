@@ -9,20 +9,47 @@ import jwt from 'jsonwebtoken';
  * @param {Object} res
  * @param {Function} next
  */
-export const userAuth = async (req, res, next) => {
+export const auth = async (req, res, next) => {
   try {
-    let bearerToken = req.header('token');
+    let bearerToken = req.headers['token'];
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
         message: 'Token is required'
       };
-    bearerToken = bearerToken.split(' ')[1];
+    jwt.verify(bearerToken, 'secretKey', (err, decoded) => {
+      if (err) {
+        return res.status(HttpStatus.BAD_REQUEST).json({ 
+          message: 'Not Authenticated' 
+        });
+      } else {
+        req.body['userId'] = decoded.id;
+        next();
+      }
+    });
+  } catch (error) {
+    next(error);
+  }
+};
 
-    const { user } = await jwt.verify(bearerToken, 'secretKey');
-    res.locals.user = user;
-    res.locals.token = bearerToken;
-    next();
+export const userAuth = async (req, res, next) => {
+  try {
+    let bearerToken = req.headers['token'];
+    if (!bearerToken)
+      throw {
+        code: HttpStatus.BAD_REQUEST,
+        message: 'Token is required'
+      };
+    jwt.verify(bearerToken, 'newSecretKey', (err, decoded) => {
+      if (err) {
+        return res.status(HttpStatus.BAD_REQUEST).json({ 
+          message: 'Not Authenticated' 
+        });
+      } else {
+        req.body['userId'] = decoded.id;
+        next();
+      }
+    });
   } catch (error) {
     next(error);
   }
