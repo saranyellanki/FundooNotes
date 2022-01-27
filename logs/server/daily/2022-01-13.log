@@ -1,0 +1,343 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T01:42:10.166Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T01:42:10.197Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T01:42:19.531Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T01:42:19.552Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T02:12:15.034Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:12:15.052Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T02:12:53.750Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:12:53.776Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T02:12:56.190Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:12:56.208Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T02:12:59.147Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:12:59.165Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T02:13:07.234Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:13:07.251Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T02:13:24.190Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:13:24.210Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T02:14:37.053Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:14:37.069Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:20:36.049Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:20:36.065Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:22:55.274Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:22:55.290Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:24:02.848Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:24:02.864Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:24:44.075Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:24:44.093Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:24:48.286Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:24:48.303Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:50:28)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.resetPassword (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:49:27) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HXU 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T03:24:50.777Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:25:15.692Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:25:15.708Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:25:53.422Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:25:53.438Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:26:05.387Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:26:05.410Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:50:59.750Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:50:59.768Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:54:47.507Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:54:47.522Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:52:7
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:133:14
+    at getSecret (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:50:21)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T03:54:54.432Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:55:27.383Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:55:27.399Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:52:7
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:133:14
+    at getSecret (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:50:7)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T03:55:32.298Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T03:56:25.594Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:56:25.611Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:01:38.616Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:01:38.633Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:02:49.698Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:02:49.715Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'status' of undefined
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:52:18
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:133:14
+    at getSecret (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:50:7)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:02:53.867Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:03:10.455Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:03:10.476Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'status' of undefined
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:52:18
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:133:14
+    at getSecret (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:50:7)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:03:12.397Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:03:36.668Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:03:36.685Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'json' of undefined
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:52:18
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:133:14
+    at getSecret (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:50:7)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:03:39.422Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:05:02.268Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:05:02.284Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:05:05.340Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:05:05.360Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:07:39.185Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:07:39.204Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'status' of undefined
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:53:18
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:133:14
+    at getSecret (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:51:7)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:07:45.416Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:08:10.667Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:08:10.686Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:08:21.082Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:08:21.101Z"}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:267:15)
+    at _callee6$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/controllers/user.controller.js:94:31)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:08:24.481Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:08:56.495Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:08:56.511Z"}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:267:15)
+    at _callee6$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/controllers/user.controller.js:94:31)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:09:00.819Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:16:00.617Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:16:00.634Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:23:23.870Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:23:23.887Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:24:01.111Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:24:01.129Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:28:34.784Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:28:34.802Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:57:43
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:223:12
+    at getSecret (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:90:14)
+    at Object.verify (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/jsonwebtoken/verify.js:94:10)
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:50:7)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HXU 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:28:39.543Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:28:51.418Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:28:51.435Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:33:02.867Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:33:02.884Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:37:55.885Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:37:55.902Z"}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:267:15)
+    at _callee6$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/controllers/user.controller.js:94:31)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:38:50.644Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:40:41.963Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:40:41.979Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:40:52.545Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:40:52.560Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:43:28.209Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:43:28.228Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:48:23.590Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:48:23.606Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:49:16.104Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:49:16.120Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:50:09.665Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:50:09.683Z"}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:267:15)
+    at _callee6$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/controllers/user.controller.js:94:31)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:50:14.481Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:50:52.282Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:50:52.297Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:50:55.674Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:50:55.692Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:51:26.221Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:51:26.237Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:51:30.612Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:51:30.629Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:52:14.415Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:52:14.432Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:52:38.078Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:52:38.095Z"}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:776:10)
+    at ServerResponse.send (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:170:12)
+    at ServerResponse.json (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:267:15)
+    at _callee6$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/controllers/user.controller.js:94:31)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24) 
+    url - /api/v1/resetPassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZGMxZWE0Mzg5OGM5YzYzMjg3ZjIwZiIsImlhdCI6MTY0MjAzOTk1Mn0.IDIVzWIXIO_CzJAFY5zpRRFdq7IU7nJW-_WvdSe_HX 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-13T04:52:40.061Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T04:54:40.830Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:54:40.845Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T05:29:28.726Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:29:28.743Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T05:31:08.074Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:31:08.092Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T05:31:26.445Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:31:26.461Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T05:33:58.992Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:33:59.013Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T05:34:02.560Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:34:02.576Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T05:38:31.744Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:38:31.762Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T06:24:22.677Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:24:22.697Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T06:42:02.594Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:42:02.612Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T06:43:42.839Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:43:42.857Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-13T06:44:17.913Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:44:17.935Z"}

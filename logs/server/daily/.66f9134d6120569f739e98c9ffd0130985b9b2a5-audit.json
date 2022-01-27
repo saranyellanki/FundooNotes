@@ -1,0 +1,69 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "logs/server/daily/.66f9134d6120569f739e98c9ffd0130985b9b2a5-audit.json",
+    "files": [
+        {
+            "date": 1641789863089,
+            "name": "logs/server/daily/2022-01-10.log",
+            "hash": "49d177253a64f206df4f4c75f75b2c17"
+        },
+        {
+            "date": 1641873950949,
+            "name": "logs/server/daily/2022-01-11.log",
+            "hash": "8b795066fed05be2cfe4edb114f1d32a"
+        },
+        {
+            "date": 1641950625083,
+            "name": "logs/server/daily/2022-01-12.log",
+            "hash": "7c258dbf1520ea0a9700ea436224b0ef"
+        },
+        {
+            "date": 1642038130104,
+            "name": "logs/server/daily/2022-01-13.log",
+            "hash": "b560564c73698ea73fadaaf9565a32e2"
+        },
+        {
+            "date": 1642396853280,
+            "name": "logs/server/daily/2022-01-17.log",
+            "hash": "c06b764fbe008241d44d812f4d4d07c7"
+        },
+        {
+            "date": 1642467996623,
+            "name": "logs/server/daily/2022-01-18.log",
+            "hash": "35c2635aff2576ce031b13de31d0c99c"
+        },
+        {
+            "date": 1642555075003,
+            "name": "logs/server/daily/2022-01-19.log",
+            "hash": "af242addcac34a6a9699e5d99e98873b"
+        },
+        {
+            "date": 1642617604444,
+            "name": "logs/server/daily/2022-01-20.log",
+            "hash": "452a333aa7acc1ea98d2b32d95c76c37"
+        },
+        {
+            "date": 1642747581520,
+            "name": "logs/server/daily/2022-01-21.log",
+            "hash": "d6d4abe193c7b967b9523e8541e0da83"
+        },
+        {
+            "date": 1642789905373,
+            "name": "logs/server/daily/2022-01-22.log",
+            "hash": "f5bf27771537080ff3c722dfac7400da"
+        },
+        {
+            "date": 1642937983064,
+            "name": "logs/server/daily/2022-01-23.log",
+            "hash": "61a9014204fbb288d4ee2089dfc2c4ea"
+        },
+        {
+            "date": 1642992036988,
+            "name": "logs/server/daily/2022-01-24.log",
+            "hash": "88423c61ea71782d02d3b7832015d676"
+        }
+    ]
+}

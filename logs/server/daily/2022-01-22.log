@@ -1,0 +1,106 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-21T18:31:45.467Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:31:45.487Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-21T18:32:18.123Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:32:18.143Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-21T18:42:37.353Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:42:37.373Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-21T18:43:01.665Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:43:01.692Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:31:20.491Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:31:20.509Z"}
+error: 
+    status - 500 
+    message - Error: "password" length must be less than or equal to 10 characters long
+    at new exports.ValidationError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/validators/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-22T02:33:30.558Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:35:10.805Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:35:10.824Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FundooNotes.users index: email_1 dup key: { email: "saran.yellanki12@gmail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-22T02:35:24.684Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-22T02:35:24.689Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:37:02.031Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:37:02.050Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:38:50.236Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:38:50.255Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:39:44.325Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:39:44.344Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:39:56.004Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:39:56.023Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:41:37.097Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:41:37.116Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:42:09.843Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:42:09.860Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:43:07.410Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:43:07.431Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:44:55.461Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:44:55.481Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:46:43.622Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:46:43.639Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:48:41.759Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:48:41.778Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:54:24.818Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:54:24.837Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:56:02.143Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:56:02.162Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T02:58:00.760Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T02:58:00.776Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:01:06.712Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:01:06.731Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:03:02.985Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:03:03.005Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:03:12.132Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:03:12.154Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:04:48.129Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:04:48.148Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:05:35.289Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:05:43.747Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:08:29.475Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:08:29.498Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:08:42.161Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:08:42.181Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:10:48.773Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:10:48.793Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:12:46.330Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:12:46.354Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:12:46.370Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:14:14.658Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:14:14.677Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T03:38:05.346Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T03:38:05.365Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T06:12:43.243Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T06:12:43.266Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T06:29:14.935Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T06:29:14.962Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-22T17:09:10.903Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T17:09:10.927Z"}

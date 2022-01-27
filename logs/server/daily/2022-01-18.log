@@ -1,0 +1,529 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:06:36.676Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:06:36.692Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:18:30.262Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:18:30.280Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:18:50.496Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:18:50.513Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:19:15.472Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:19:15.488Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:22:23.156Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:22:23.172Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:23:38.319Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:23:38.339Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:24:04.887Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:24:04.906Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:24:32.190Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:24:32.208Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:25:07.074Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:25:07.093Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T01:50:41.199Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T01:50:41.217Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:04:40.504Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:04:40.522Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:10:23.881Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:10:23.900Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:12:47.108Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:12:47.126Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:14:51.447Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:14:51.466Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:15:08.943Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:15:08.960Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:18:01.869Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:18:01.888Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:18:42.154Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:18:42.173Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:20:17.054Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:20:17.072Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee4$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:40:11)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/forgetPassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:20:17.205Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:20:40.667Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:20:40.685Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:22:22.946Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:22:22.964Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:30:09.586Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:30:09.605Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/bcrypt/bcrypt.js:137:17)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/bcrypt/promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/bcrypt/promises.js:20:12)
+    at Object.hash (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/bcrypt/bcrypt.js:133:25)
+    at _callee5$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:50:36)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/resetPassword 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:30:13.341Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:30:53.119Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:30:53.139Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:31:53.030Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:31:53.050Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:31:53.150Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:31:53.154Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:31:53.246Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:31:53.252Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/resetPassword 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-18T02:31:53.258Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:31:53.262Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:32:35.048Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:32:35.067Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:39:09.884Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:39:09.903Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:39:49.837Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:39:49.856Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "61e593e75dd1f09f49eb08" (type string) at path "_id" for model "Notes"
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/user/singleNote 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:39:49.985Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:40:09.282Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:40:09.300Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:40:09.393Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:40:09.397Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:40:43.306Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:40:43.325Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:40:43.424Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:40:43.429Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:41:45.261Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:41:45.280Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:41:45.379Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:32:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-18T02:41:45.383Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/getNotes 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-18T02:41:45.406Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/singleNote 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-18T02:41:45.417Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:42:07.489Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:42:07.507Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/getNotes 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-18T02:42:07.618Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/singleNote 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-18T02:42:07.635Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T02:42:26.582Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T02:42:26.601Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T03:19:51.257Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T03:19:51.276Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T03:20:35.405Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T03:20:35.423Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T03:36:47.203Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T03:36:47.224Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T03:52:25.860Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T03:52:25.883Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T03:54:23.347Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T03:54:23.370Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T03:55:45.809Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T03:55:45.828Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T03:56:18.819Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T03:56:18.838Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T05:52:08.338Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T05:52:08.356Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T05:52:31.085Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T05:52:31.103Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T05:52:53.436Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T05:52:53.454Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T05:58:14.826Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T05:58:14.842Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T06:55:58.260Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T06:55:58.275Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T06:56:30.661Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T06:56:30.680Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T07:11:26.289Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T07:11:26.307Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T07:12:22.715Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T07:12:22.732Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T07:16:50.926Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T07:16:50.943Z"}
+error: 
+    status - 500 
+    message - Error: "lastName" is required
+    at new exports.ValidationError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/validators/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-18T07:17:29.646Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T07:17:47.881Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T07:17:47.899Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T07:59:49.896Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T07:59:49.912Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:01:22.414Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:01:22.432Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:01:39.234Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:01:39.253Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:03:00.925Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:03:00.943Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:07:42.955Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:07:42.972Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:09:46.031Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:09:46.050Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:09:51.364Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:09:51.383Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:11:22.959Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:11:22.977Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:24:11)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-18T08:11:35.759Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:24:11)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-18T08:12:04.139Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:13:56.298Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:13:56.313Z"}
+error: 
+    status - 500 
+    message - Error: User does not exist
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:24:11)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-18T08:14:23.400Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:18:32.411Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:18:32.428Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T08:51:32.019Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T08:51:32.035Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T09:09:08.744Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T09:09:08.761Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T09:09:41.646Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T09:09:41.664Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T09:13:39.193Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T09:13:39.211Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T09:37:18.596Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T09:37:18.615Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T09:37:52.014Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T09:37:52.031Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T13:59:42.644Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T13:59:42.660Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T14:00:44.626Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T14:00:44.644Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T14:01:31.993Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T14:34:51.982Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T14:34:51.999Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T14:35:15.146Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T14:36:03.544Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T14:36:19.730Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T14:36:19.750Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T14:36:23.757Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T14:37:08.471Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T14:38:01.466Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T14:49:00.288Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T14:49:00.305Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T14:50:37.511Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T14:57:02.599Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T14:57:02.617Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T15:01:13.769Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T15:01:13.785Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T15:32:59.452Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T15:32:59.468Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T15:33:17.307Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T15:33:17.325Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T15:38:11.803Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T15:38:11.819Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/getNotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-18T15:39:01.257Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/getNotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-18T15:39:37.042Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/getNotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-18T15:39:53.716Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T15:40:20.541Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T15:41:43.171Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T15:41:43.190Z"}
+error: 
+      status - 400
+      message - Token is required 
+      url - /api/v1/user/addNote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-18T15:42:53.071Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T15:43:44.310Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T15:43:44.328Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T16:04:28.469Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T16:04:28.486Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T16:04:55.530Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T16:04:55.547Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T16:08:17.363Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T16:08:17.381Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T16:20:11.837Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T16:20:11.853Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T16:24:00.454Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T16:24:00.471Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T16:52:28.227Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T16:52:28.245Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T17:17:00.273Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T17:17:00.290Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-18T17:31:39.826Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T17:31:39.844Z"}

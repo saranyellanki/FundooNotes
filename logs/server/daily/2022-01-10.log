@@ -1,0 +1,454 @@
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:44:23.134Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:44:23.151Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:10:24)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.newUser (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:10:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T04:45:24.272Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:46:05.760Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:46:05.774Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:46:37.643Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:46:37.675Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:53:35.337Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:53:35.359Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:26:11)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T04:54:01.582Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:54:20.614Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:54:20.637Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:54:53.215Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:54:53.235Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:57:22.280Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:57:22.296Z"}
+error: 
+    status - 500 
+    message - TypeError: body.save is not a function
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:29:12)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T04:57:51.390Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T04:58:01.948Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T04:58:01.969Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T06:22:52.075Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:22:52.097Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T06:24:47.346Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T06:24:47.370Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T07:50:23.783Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:50:23.806Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T07:51:35.699Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:51:35.722Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:20:22)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T07:51:38.669Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T07:52:05.213Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:52:05.234Z"}
+error: 
+    status - 500 
+    message - ReferenceError: error is not defined
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:20:22)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T07:52:08.385Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T07:52:17.095Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T07:52:17.114Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:31:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T07:52:19.165Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:31:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T07:52:32.481Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T09:30:51.696Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:30:51.714Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T09:44:30.097Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T09:44:30.114Z"}
+error: 
+    status - 500 
+    message - Error: Not a Valid Password
+    at _callee3$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/user.service.js:31:13)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T09:45:27.880Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T10:10:13.820Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T10:10:13.838Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:21:09.805Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:21:09.822Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:21:39.863Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:23:36.519Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:31:15.212Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:32:03.533Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:32:03.553Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:32:07.704Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:39:21.933Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:39:21.956Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:39:35.669Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:39:35.687Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:41:40.754Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:42:31.483Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:42:31.508Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:42:36.790Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:43:42.035Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:43:42.061Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:43:46.736Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:45:10.514Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:45:10.533Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:45:13.040Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:45:13.062Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:45:23.531Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:54:15.678Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:54:15.695Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T11:57:27.434Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T11:59:31.747Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T11:59:31.773Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T12:00:00.324Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:00:00.352Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T12:00:25.535Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T12:02:32.752Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:02:32.773Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T12:02:34.772Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T12:02:46.673Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:02:46.693Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T12:03:10.235Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:03:10.254Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 32
+    at JSON.parse (<anonymous>)
+    at parse (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/raw-body/index.js:224:16)
+    at done (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T12:15:35.534Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T12:15:52.957Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:15:52.975Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T12:15:59.101Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:15:59.118Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T12:16:01.009Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:16:01.031Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T12:16:04.269Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T12:16:04.288Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T13:17:56.728Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:17:56.746Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T13:35:23.369Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:35:23.385Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'userId' of undefined
+    at _callee2$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/note.service.js:9:54)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.getAllUsers (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/note.service.js:8:25) 
+    url - /api/v1/user/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T13:35:38.581Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'userId' of undefined
+    at _callee2$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/note.service.js:9:54)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.getAllUsers (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/note.service.js:8:25) 
+    url - /api/v1/user/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T13:35:59.106Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T13:36:52.333Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:36:52.355Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T13:36:56.992Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:36:57.010Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'userId' of undefined
+    at _callee2$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/note.service.js:9:54)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.getAllUsers (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/note.service.js:8:25) 
+    url - /api/v1/user/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T13:37:01.953Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'userId' of undefined
+    at _callee2$ (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/note.service.js:9:54)
+    at tryCatch (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.getAllUsers (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/services/note.service.js:8:25) 
+    url - /api/v1/user/getNotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-10T13:37:04.833Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T13:37:46.467Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:37:46.484Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T13:38:56.474Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:38:56.493Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T13:41:02.418Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T13:41:02.437Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T15:10:21.501Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T15:10:21.519Z"}
+info: Server started at http://localhost:7000/api/v1/ {"timestamp":"2022-01-10T15:12:23.976Z"}
+info: Connected to the database. {"timestamp":"2022-01-10T15:12:23.996Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 30
+    at JSON.parse (<anonymous>)
+    at parse (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/raw-body/index.js:224:16)
+    at done (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T16:01:03.166Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FundooNotes.users index: email_1 dup key: { email: "saran.yellanki12@gmail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-10T16:01:10.339Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/hp/Desktop/PROJECTS/MEAN/FundooNotes/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-10T16:01:10.345Z"}
